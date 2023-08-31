@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+body{
+  background: hsl(235, 21%, 11%);
+  color: white;
+}
+.banner{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100vw;
+  height: 300px;
+  background-size: cover;
+  gap: 30px;
+}
+h3{
+  text-align: center;
+}
+.input{
+  height: 200px;
+  width: 400px;
+  margin: 0 auto;
+}
+.todoinput{
+  all: unset;
+  height: 40px;
+  width: 400px;
+  border-radius: 5px;
+ background-color: hsl(237, 14%, 26%);
+ 
+
+}
+.list{
+  background-color: hsl(237, 14%, 26%);
+  width: 400px;
+  margin: 0 auto;
+  margin-top: -80px;
+  border-radius: 5px;
+
+}
+.padding{
+  padding: 5px;
+  box-shadow: 0 0 5px 5px rgba(0,0,0,0.4);
+
+}
+.todo{
+  border-bottom: 1px solid grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  padding: 5px;
+}
+button{
+  all: unset;
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  border: 1px solid grey;
+  padding: 5px;
+  background: transparent;
+ }
+.addtodo{
+  width: 60px;
+  height: 30px;
+  margin: 0 40%;
+  margin-top: 10px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  text-align: center;
+}
+.updateinput{
+  all: unset;
+  border-bottom: 1px dotted grey;
+  background-color: transparent;
+}
+.strike {
+  text-decoration: line-through;
+}
+
+@media (max-width:425px) {
+  .input{
+    height: 200px;
+    width: 300px;
+    margin: 0 auto;
+  }
+  .todoinput{
+    all: unset;
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+   background-color: hsl(237, 14%, 26%);
+  }
+  .list{
+    background-color: hsl(237, 14%, 26%);
+    width: 300px;
+    margin: 0 auto;
+    margin-top: -80px;
+    border-radius: 5px;
+  }
+}
+
